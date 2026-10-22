@@ -3,9 +3,9 @@ class ScalableCli < Formula
   homepage "https://github.com/ScalableCapital/scalable-cli"
   depends_on :macos
 
-  url "https://github.com/ScalableCapital/scalable-cli/releases/download/v1.1.0/sc-v1.1.0-macos-universal2.zip"
-  version "1.1.0"
-  sha256 "a88f2e395fddeaf96f90876db0ee8b1f37a987de16f7000526af5815c2af2d71"
+  url "https://github.com/ScalableCapital/scalable-cli/releases/download/v1.2.0/sc-v1.2.0-macos-universal2.zip"
+  version "1.2.0"
+  sha256 "e051683418312e684e4108c0eb16c37c3b9988ed2ffb1bc68d183900f3910460"
 
   def install
     (prefix/"Sc.app").mkpath
